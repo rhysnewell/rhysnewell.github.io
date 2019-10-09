@@ -11,30 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. in Ecology and Genetics, The University of Queensland, 2017
+* B.Sc (Honors IA) in Bioinformatics, The University of Queensland, 2018
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2016: Summer Research Scholar
+  * The University of Queensland
+  * Supervisor: Associate Professor Mikael Boden
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Analysis of metagenomic and genomic datasets using a variety of methods
+* Adept in various programming languages:
+  * Rust
+  * Python
+  * R
+* Field sample collection
 
 Publications
 ======
@@ -56,4 +50,3 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
