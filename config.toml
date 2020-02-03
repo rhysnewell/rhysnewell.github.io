@@ -1,6 +1,5 @@
 baseurl = "http://rhysnewell.github.io"
 title = "rhysnewell"
-
 theme = "hugo-coder"
 
 languagecode = "en"
