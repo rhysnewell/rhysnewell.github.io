@@ -3,12 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rhysnewell.github.io/series/hugo/</loc>
-    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+    <loc>https://rhysnewell.github.io/categories/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/tags/commands/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/tags/git/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/series/git/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/categories/git/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/posts/helpful-git-commands/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/series/informal/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rhysnewell.github.io/posts/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/tags/scripts/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/series/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/tags/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/categories/tutorial/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/categories/version-control/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rhysnewell.github.io/series/hugo/</loc>
     <lastmod>2019-03-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,23 +83,8 @@
   </url>
   
   <url>
-    <loc>https://rhysnewell.github.io/</loc>
-    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhysnewell.github.io/series/</loc>
-    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rhysnewell.github.io/series/theme/</loc>
     <lastmod>2019-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhysnewell.github.io/categories/</loc>
-    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -54,11 +104,6 @@
   
   <url>
     <loc>https://rhysnewell.github.io/posts/hugo-coder-wiki/</loc>
-    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rhysnewell.github.io/tags/</loc>
     <lastmod>2019-01-17T00:00:00+00:00</lastmod>
   </url>
   

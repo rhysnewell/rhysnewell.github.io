@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scripts on rhysnewell</title>
+    <link>https://rhysnewell.github.io/tags/scripts/</link>
+    <description>Recent content in Scripts on rhysnewell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rhysnewell.github.io/tags/scripts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git Makes Me Feel Like a Git</title>
+      <link>https://rhysnewell.github.io/posts/helpful-git-commands/</link>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rhysnewell.github.io/posts/helpful-git-commands/</guid>
+      <description>Introduction There are many things in this world that make me truly feel like a fool. One of them is perhaps one of the most useful tools any programmer could use: Git. Which is unfortunate for me, considering I am a programmer&amp;hellip; Sort of.
+My understanding of how to properly use Git to its full extent is incredibly lacking. It&amp;rsquo;s like when you &amp;ldquo;learn&amp;rdquo; another language in high school, and then when faced with an actual real world encounter of said language you&amp;rsquo;ve got no idea of what is going on.</description>
+    </item>
+    
+  </channel>
+</rss>
