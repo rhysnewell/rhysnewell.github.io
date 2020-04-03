@@ -127,7 +127,7 @@ My understanding of how to properly use Git to its full extent is incredibly lac
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              2-minute read
+              3-minute read
             </span>
           </div>
           <div class="categories">
@@ -160,23 +160,47 @@ It&rsquo;s like when you &ldquo;learn&rdquo; another language in high school, an
 with an actual real world encounter of said language you&rsquo;ve got no idea of what is going on.</p>
 <p>So here in this blog, I will make account of some the things I realize I don&rsquo;t know how to do with Git
 and hopefully work out how to do them.</p>
+<p>I should note that these experiences are from an individual programmers experience. Writing code for a company or in a
+large team would be very different and there a rules are regulations that you should probably attempt to follow there.</p>
+<p>But if you are on your own then anything goes lol.</p>
+<p>Just remember to comment your code you filthy animals.</p>
+<h2 id="the-basics">The Basics</h2>
+<h3 id="creating-a-repo">Creating a repo</h3>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">mkdir my_new_project &amp;&amp; cd my_new_project &amp;&amp; git init
+</code></pre></div><p>Woah, you just created a git repository!
+Obviously, this only a local repo but that&rsquo;s pretty good.</p>
+<h3 id="cloning-a-repo">Cloning a repo</h3>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git clone https://github.com/rhysnewell/Lorikeet.git
+</code></pre></div><h3 id="add-and-commit-changes">Add and commit changes</h3>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git add file_that_has_been_edited.txt
+git commit -m &#34;I just changed this file and it was rad&#34;
+git push
+</code></pre></div><p>Obviously try to not overdo it with your commits. You should commit whenever you make substantial changes to your own code
+and not every time you make a very small change. But you also don&rsquo;t want to commit so few times that you end up losing large chunks
+of work due your computer deciding to die.</p>
+<p>ALSO, pay attention to the commit rules at whatever company or project you are working on. Keep things consistent, it&rsquo;s much easier
+to fix problems if everything is documented correctly.</p>
+<h2 id="appendix-the-esoteric">Appendix: The Esoteric</h2>
+<p>When using git, you will likely come across many problems which you think will just be one-off. Learn and forget. Unfortunately,
+many times now problems that I though would be one-off continue to come back and bite me in the arse. So here is where I keep The Esoteric.
+Problems which shouldn&rsquo;t be problems and yet they continue to be. For me at least.</p>
 <h3 id="part-one-detached-heads">Part One: Detached Heads</h3>
 <p>Okay, somehow you&rsquo;ve lost your head. It&rsquo;s okay, it happens to the best of us.
 We can fix this.</p>
 <p>Step 1:</p>
 <p>Look at the most recent commit.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ git log -n 1
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git log -n 1
 </code></pre></div><p>Step 2:</p>
 <p>Copy the commit hash.</p>
 <p>Step 3:</p>
 <p>Checkout the master branch. Don&rsquo;t worry about the warning that pops up, we&rsquo;ll handle that in step 4.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ git checkout master
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git checkout master
 </code></pre></div><p>Step 4:</p>
 <p>Create a temporary branch containing your commit-hash from step 1.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ git branch tmp &lt;commit-hash&gt;
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git branch tmp &lt;commit-hash&gt;
 </code></pre></div><p>Step 5:</p>
 <p>If you&rsquo;d like to save the changes you made in this commit, and merge them to master then:</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ git merge tmp
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git merge tmp
 </code></pre></div><p>It&rsquo;s possible that doing so may cause some merge conflicts. These can be tedious to fix unfortunately,
 but necessary if you want to keep your changes. Git will mark which files have conflicts
 and point to them within each file using this format:</p>
@@ -190,11 +214,14 @@ or, more likely, you wrote both of them on separate branches and forgot
 you&#39;d made the change you daft git.
 </code></pre></div><p>Choose either the head or the branches changes, or a mixture of both. Add the file in once it
 has been modified.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ git add modified_file
-$ git commit -m &#34;merging conflict&#34;
-$ git push
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git add modified_file
+git commit -m &#34;merging conflict&#34;
+git push
 </code></pre></div><p>That should solve your detached head. If the problem persists, see a doctor.</p>
-
+<h3 id="part-two-removing-submodules">Part Two: Removing Submodules</h3>
+<p>Removing submodules is not as easy as you&rsquo;d think it should be</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">
+</code></pre></div>
       </div>
 
 
