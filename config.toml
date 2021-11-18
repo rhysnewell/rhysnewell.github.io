@@ -1,4 +1,4 @@
-baseurl = "http://rhysnewell.github.io"
+baseurl = "https://rhysnewell.github.io"
 title = "rhysnewell"
 theme = "hugo-coder"
 
@@ -22,7 +22,7 @@ disqusShortname = "rhysnewell"
     avatarurl = "images/avatar.jpg"
     footercontent = "Ikigai."
 
-    dateformat = "January 2, 2006"
+    dateformat = "2 January, 2006"
 
     hideCredits = false
     hideCopyright = false
@@ -59,33 +59,33 @@ disqusShortname = "rhysnewell"
     icon = "fab fa-github"
     weight = 1
     url = "https://github.com/rhysnewell/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab"
-    weight = 2
-    url = "https://gitlab.com/rhysnewell/"
+#[[params.social]]
+#    name = "Gitlab"
+#    icon = "fab fa-gitlab"
+#    weight = 2
+#    url = "https://gitlab.com/rhysnewell/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/rhysnewell/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/rhys-newell-uq/"
-[[params.social]]
-    name = "Medium"
-    icon = "fab fa-medium"
-    weight = 5
-    url = "https://medium.com/@johndoe"
-[[params.social]]
-    name = "RSS"
-    icon = "fas fa-rss"
-    weight = 6
-    url = "https://myhugosite.com/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
+#[[params.social]]
+#    name = "Medium"
+#    icon = "fab fa-medium"
+#    weight = 5
+#    url = "https://medium.com/@johndoe"
+#[[params.social]]
+#    name = "RSS"
+#    icon = "fas fa-rss"
+#    weight = 6
+#    url = "https://myhugosite.com/index.xml"
+#    rel = "alternate"
+#    type = "application/rss+xml"
 
 
 [languages]
@@ -110,8 +110,18 @@ disqusShortname = "rhysnewell"
             url = "projects/"
 
             [[languages.en.menu.main]]
-            name = "Contact me"
+            name = "Publications"
+            weight = 4
+            url = "publications/"
+
+            [[languages.en.menu.main]]
+            name = "Talks & Awards"
             weight = 5
+            url = "conferences/"
+
+            [[languages.en.menu.main]]
+            name = "Contact me"
+            weight = 6
             url = "contact/"
 
 

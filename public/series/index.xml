@@ -2,39 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on rhysnewell</title>
-    <link>http://rhysnewell.github.io/series/</link>
+    <link>https://rhysnewell.github.io/series/</link>
     <description>Recent content in Series on rhysnewell</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Mar 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://rhysnewell.github.io/series/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rhysnewell.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo</title>
-      <link>http://rhysnewell.github.io/series/hugo/</link>
-      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Git</title>
+      <link>https://rhysnewell.github.io/series/git/</link>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://rhysnewell.github.io/series/hugo/</guid>
+      <guid>https://rhysnewell.github.io/series/git/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Theme</title>
-      <link>http://rhysnewell.github.io/series/theme/</link>
-      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Informal</title>
+      <link>https://rhysnewell.github.io/series/informal/</link>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://rhysnewell.github.io/series/theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Getting Started</title>
-      <link>http://rhysnewell.github.io/series/getting-started/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://rhysnewell.github.io/series/getting-started/</guid>
+      <guid>https://rhysnewell.github.io/series/informal/</guid>
       <description></description>
     </item>
     
