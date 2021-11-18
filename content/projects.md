@@ -40,6 +40,6 @@ allowing users to generate finalized sets of high confidence ChIP-seq and ATAC-s
 [CoverM](https://github.com/wwood/coverm)
 [Galah](https://github.com/wwood/galah) logo
 
-## Side projects 
+## Hobby side projects 
 ### Nymph
 Non-negative matrix factorization in rust
