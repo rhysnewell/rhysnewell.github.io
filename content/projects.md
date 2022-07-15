@@ -19,7 +19,8 @@ Rosella is a metagenomic binning algorithm written in Rust and Python. It makes 
 metagenomic assembled genomes from metagenome assemblies. It can both map and calculate coverage information for assemblies
 and is capable of handling and long and short reads simultaneously.
 
-## [Aviary](https://github.com/rhysnewell/aviary)
+## [Aviary](https://rhysnewell.github.io/aviary/)
+![](/images/aviary_logo.png)
 
 Aviary is a modular and easy to use to complete metagenomic workflow written in python wrapping around snakemake. Aviary 
 is capable of handling hybrid assembly of long and short reads from various sequencing platforms. Additionally, Aviary performs
@@ -36,9 +37,9 @@ allowing users to generate finalized sets of high confidence ChIP-seq and ATAC-s
 
 ## Contributions
 
-[Kingfisher](https://github.com/wwood/kingfisher-download)
-[CoverM](https://github.com/wwood/coverm)
-[Galah](https://github.com/wwood/galah) logo
+- [Kingfisher](https://github.com/wwood/kingfisher-download)
+- [CoverM](https://github.com/wwood/coverm)
+- [Galah](https://github.com/wwood/galah)
 
 ## Hobby side projects 
 ### Nymph

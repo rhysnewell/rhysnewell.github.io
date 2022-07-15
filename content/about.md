@@ -3,22 +3,24 @@ title = "About Rhys"
 slug = "about"
 +++
 
-Rhys is a PhD candidate at the Centre for Microbiome Research, QUT, Australia. Rhys is a bioinformatician focussed on
-the development and publication of computational algorithms and workflows. Rhys is fluent in a number of programming languages
-including Rust, Python, and R as well various other workflow managers like Snakemake.
+Hi! 
 
-Rhys completed his Bachelor of Science (Hons I) at the University of Queensland in Brisbane, Australia. His undergraduate 
-majors were genetics and ecology, where he was exposed to bioinformatics and other ecological and genetic data analysis 
-techniques through Assoc. Prof. Mikael Boden. Rhys then completed his Honours in the Boden lab where he wrote and published
-the tool [ChIP-R](https://github.com/rhysnewell/chip-r) under the supervision of Dr. Alex Essebier and Assoc. Prof. Mikael Boden.
+My name is Rhys, and I WAS a PhD candidate at the Centre for Microbiome Research, QUT, Australia. Currently, I'm waiting
+for the examination of my thesis to be completed. In the meantime, I'm acting as a software developer and data scientist at CMR
+focused on the development of improved metagenomic bioinformatic workflows, machine learning applications in microbiology, and
+diversity analysis algorithms using read assembly techniques. I've developed an affinity for a number of programming languages
+including Rust, Python, and R.
 
-Wanting to combine his passion for ecology with his amazement with genetics and bioinformatics Rhys then applied for
-a PhD under Dr. Ben Woodcroft and Prof. Gene Tyson with Assoc. Prof Mikael Boden as a secondary supervisor. At the time, Tyson and 
- Woodcroft were at that time a part of the Australian Centre for Ecogenomics at the University of Queensland.
-During his PhD, Tyson, Woodcroft, and many others began a new centre at QUT called the Centre for Microbiome Research. Rhys was
-involved in the establishment of this new centre and was partially responsible for the transfer of the hordes of data accumulated
-from various metagenomic studies.
+I completed his Bachelor of Science (Hons I) at the University of Queensland in Brisbane, Australia. My undergraduate 
+majors were genetics and ecology. It was during my undergraduate that I was first exposed to the application of computer science
+ techniques to biological data, A.K.A bioinformatics. Assoc. Prof. Mikael Boden, Dr. Alex Essebier, and the rest of the Boden lab
+ took me under their wings and taught me the basics of programming during a summer research scholarship which changed the trajectory 
+ of my undergraduate completely. From then on, I was determined to become a data scientist and programmer. It was to this end that
+ I completed my Honours in the Boden lab where we managed create and publish my first bioinformatics tool [ChIP-R](https://github.com/rhysnewell/chip-r) 
+ under the supervision of Dr. Alex Essebier and Assoc. Prof. Mikael Boden.
 
-Rhys is currently in the process of finishing up his PhD, where is his thesis is focussed on the development of three
-primary tools: [Lorikeet](https://rhysnewell.github.io/Lorikeet), [Rosella](https://rhysnewell.github.io/rosella), and
-[Aviary](https://github.com/rhysnewell/aviary)
+Wanting to combine his passion for ecology with my new found love for programming, I then applied for
+a PhD under Dr. Ben Woodcroft and Prof. Gene Tyson with Assoc. Prof Mikael Boden as a secondary supervisor. 
+It was during this PhD that I fully immersed myself in the creation of complex and useful software for my fellow biologists.
+The primary tools that I managed to develop during this time include: [Lorikeet](https://rhysnewell.github.io/Lorikeet), [Rosella](https://rhysnewell.github.io/rosella), and
+[Aviary](https://rhysnewell.github.io/aviary)
