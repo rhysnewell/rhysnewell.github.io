@@ -1,5 +1,5 @@
 +++ 
-date = "2020-02-04"
+date = "2022-15-07"
 title = "A collection of logos I went and did."
 slug = "a-collection-of-logos-i-went-and-did" 
 tags = ["Birds", "Projects", "Programs"]
