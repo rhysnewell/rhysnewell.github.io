@@ -8,9 +8,9 @@ the development and publication of computational algorithms and workflows. Rhys 
 including Rust, Python, and R as well various other workflow managers like Snakemake.
 
 Rhys completed his Bachelor of Science (Hons I) at the University of Queensland in Brisbane, Australia. His undergraduate 
-majors were genetics and ecology, where he was exposed to bioinformatics and other mystical ecological and genetic data analysis 
+majors were genetics and ecology, where he was exposed to bioinformatics and other ecological and genetic data analysis 
 techniques through Assoc. Prof. Mikael Boden. Rhys then completed his Honours in the Boden lab where he wrote and published
-the tool [ChIP-R](https://github.com/rhysnewell/chip-r).
+the tool [ChIP-R](https://github.com/rhysnewell/chip-r) under the supervision of Dr. Alex Essebier and Assoc. Prof. Mikael Boden.
 
 Wanting to combine his passion for ecology with his amazement with genetics and bioinformatics Rhys then applied for
 a PhD under Dr. Ben Woodcroft and Prof. Gene Tyson with Assoc. Prof Mikael Boden as a secondary supervisor. At the time, Tyson and 
