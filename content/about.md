@@ -5,7 +5,7 @@ slug = "about"
 
 Hi! 
 
-My name is Rhys, and I WAS a PhD candidate at the Centre for Microbiome Research, QUT, Australia. Currently, I'm waiting
+My name is Rhys, and I am a recently submitted PhD candidate at the Centre for Microbiome Research, QUT, Australia. Currently, I'm waiting
 for the examination of my thesis to be completed. In the meantime, I'm acting as a software developer and data scientist at CMR
 focused on the development of improved metagenomic bioinformatic workflows, machine learning applications in microbiology, and
 diversity analysis algorithms using read assembly techniques. I've developed an affinity for a number of programming languages
